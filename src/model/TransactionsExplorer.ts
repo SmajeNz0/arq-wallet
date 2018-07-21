@@ -431,11 +431,11 @@ export class TransactionsExplorer {
 		return new Promise<{ raw: { hash: string, prvKey: string, raw: string }, signed: any }>(function (resolve, reject) {
 			// few multiplayers based on uint64_t wallet2::get_fee_multiplier
 			let fee_multiplayers = [1, 4, 20, 166];
-			let default_priority = 2;
+			let default_priority = 2; //not sure here should be normal
 			let feePerKB = new JSBigInt((<any>window).config.feePerKB);
 			let priority = default_priority;
 			let fee_multiplayer = fee_multiplayers[priority - 1];
-			let mixin = 12;
+			let mixin = 6; //change from 12
 			let neededFee = feePerKB.multiply(13).multiply(fee_multiplayer);
 			let pid_encrypt = false; //don't encrypt payment ID unless we find an integrated one
 
