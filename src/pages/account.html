@@ -22,9 +22,9 @@
 			<div class="body" >
 				<div class="header-title" >{{ $t("accountPage.balanceBlock.title") }}</div>
 				<div class="content" >
-					<span class="walletAmount" >{{walletAmount | nanoarq}}</span> MSR
+					<span class="walletAmount" >{{walletAmount | nanoarq}}</span> ARQ
 					<tempate class="amount unlocked" v-if="unlockedWalletAmount !== walletAmount" >
-						<br/><span class="walletAmount" >{{ $t("accountPage.balanceBlock.unlocked") }}: {{unlockedWalletAmount | nanoarq}}</span> MSR
+						<br/><span class="walletAmount" >{{ $t("accountPage.balanceBlock.unlocked") }}: {{unlockedWalletAmount | nanoarq}}</span> ARQ
 					</tempate>
 				</div>
 			</div>
