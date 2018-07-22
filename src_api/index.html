@@ -29,12 +29,12 @@
 <script>
 	var clickButton = document.getElementById('payButton');
 
-	function MasariLoaded(){
+	function ArqmaLoaded(){
 		clickButton.disabled = false;
 		clickButton.addEventListener("click", function(){
-			MasariApi.makeTransfer({
+			ArqmaApi.makeTransfer({
 				amount:10,
-				address:'wallet.masaricoin.com',
+				address:'donations.arqma.com',
 				description:'Description',
 				destName:'Webwallet',
 				redirect:encodeURIComponent(window.location.href)
@@ -44,12 +44,12 @@
 		});
 
 		console.log('LOADED CALLBACK');
-		MasariApi.hasWallet().then(function(hasWAllet){
+		ArqmaApi.hasWallet().then(function(hasWAllet){
 			console.log('HAS WALLET');
 			console.log(hasWAllet);
 		});
 	}
-	MasariApi.init().then(MasariLoaded);
+	ArqmaApi.init().then(ArqmaLoaded);
 
 </script>
 
