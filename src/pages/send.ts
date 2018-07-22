@@ -195,9 +195,9 @@ class SendView extends DestructableView {
 								swal({
 									title: i18n.t('sendPage.confirmTransactionModal.title'),
 									html: i18n.t('sendPage.confirmTransactionModal.content', {
-										amount:Vue.options.filters.piconero(amount),
-										fees:Vue.options.filters.piconero(feesAmount),
-										total:Vue.options.filters.piconero(amount+feesAmount),
+										amount:Vue.options.filters.nanoarq(amount),
+										fees:Vue.options.filters.nanoarq(feesAmount),
+										total:Vue.options.filters.nanoarq(amount+feesAmount),
 									}),
 									showCancelButton: true,
 									confirmButtonText: i18n.t('sendPage.confirmTransactionModal.confirmText'),
