@@ -282,7 +282,7 @@
 	},
 	"miningPage":{
 	  "title":"Mine directly in your Browser",
-	  "subtitle":"Support the network but mining to improve the stability and be rewarded with MSR",
+	  "subtitle":"Support the network but mining to improve the stability and be rewarded with ARQ",
 	  "parameterBlock":{
 		"title":"Parameters",
 		"labelDestinationAddress":"Wallet to mine",
