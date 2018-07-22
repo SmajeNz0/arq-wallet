@@ -69,6 +69,7 @@ function calcJob(){
 			// console.log('blob',job.blob);
 			// console.log('variant',job.variant);
 			// console.log('algo',job.algo);
+			//this line check version of algotithm we can chech later to remove it and speed up (Arq)
 
 			try {
 				if(job.algo === "cn")

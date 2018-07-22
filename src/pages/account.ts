@@ -18,7 +18,7 @@ import {DependencyInjectorInstance} from "../lib/numbersLab/DependencyInjector";
 import {Wallet} from "../model/Wallet";
 import {DestructableView} from "../lib/numbersLab/DestructableView";
 import {Constants} from "../model/Constants";
-import {VueFilterDate, VueFilterPiconero} from "../filters/Filters";
+import {VueFilterDate, VueFilterNanoarq} from "../filters/Filters";
 import {AppState} from "../model/AppState";
 import {Transaction} from "../model/Transaction";
 
@@ -26,7 +26,7 @@ let wallet : Wallet = DependencyInjectorInstance().getInstance(Wallet.name,'defa
 let blockchainExplorer = DependencyInjectorInstance().getInstance(Constants.BLOCKCHAIN_EXPLORER);
 
 @VueRequireFilter('date',VueFilterDate)
-@VueRequireFilter('piconero',VueFilterPiconero)
+@VueRequireFilter('nanoarq',VueFilterNanoarq)
 class AccountView extends DestructableView{
 	@VueVar([]) transactions !: Transaction[];
 	@VueVar(0) walletAmount !: number;
@@ -75,7 +75,7 @@ class AccountView extends DestructableView{
 		let explorerUrl = config.testnet ? config.testnetExplorerUrl : config.mainnetExplorerUrl;
 		let feesHtml = '';
 		if(transaction.getAmount() < 0)
-			feesHtml = `<div>`+i18n.t('accountPage.txDetails.feesOnTx')+`: `+Vue.options.filters.piconero(transaction.fees)+`</a></div>`;
+			feesHtml = `<div>`+i18n.t('accountPage.txDetails.feesOnTx')+`: `+Vue.options.filters.nanoarq(transaction.fees)+`</a></div>`;
 
 		let paymentId = '';
 		if(transaction.paymentId !== ''){

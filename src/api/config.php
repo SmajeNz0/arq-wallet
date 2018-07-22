@@ -3,5 +3,5 @@
 $testnet = false;
 $cacheLocation = $testnet ? 'cache-testnet' : 'cache';
 $daemonAddress = 'localhost';
-$rpcPort = $testnet ? 48081 : 38081;
-$coinSymbol = 'msr';
+$rpcPort = $testnet ? 29994 : 19994; //rpc port daemon
+$coinSymbol = 'arq';
