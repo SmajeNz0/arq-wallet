@@ -34,7 +34,7 @@ let blockchainExplorer: BlockchainExplorerRpc2 = BlockchainExplorerProvider.getI
 
 AppState.enableLeftMenu();
 
-@VueRequireFilter('piconero', VueFilterPiconero)
+@VueRequireFilter('nanoarq', VueFilterNanoarq)
 class SendView extends DestructableView {
 	@VueVar('') destinationAddressUser !: string;
 	@VueVar('') destinationAddress !: string;
