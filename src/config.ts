@@ -5,7 +5,7 @@ global.config = {
 	testnetExplorerUrl: "",
 	testnet: false,
 	coinUnitPlaces: 9,
-	txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
+	txMinConfirms: 4,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
 	txCoinbaseMinConfirms: 18, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
 	coinSymbol: 'ARQ',
 	openAliasPrefix: "arq",
