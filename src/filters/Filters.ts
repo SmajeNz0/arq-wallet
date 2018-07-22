@@ -19,6 +19,6 @@ export function VueFilterDate(value:number) {
 	return formated;
 }
 
-export function VueFilterPiconero(value : number){
-	return value/1000000000000;
+export function VueFilterNanoarq(value : number){
+	return value/100000000;
 }
