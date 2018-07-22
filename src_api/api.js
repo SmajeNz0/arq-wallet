@@ -16,7 +16,7 @@
 var ArqmaApi = new function(){
 
 	this.ready = false;
-	this.apiDomain = 'http://localhost:38090';
+	this.apiDomain = 'fcgi://localhost';
 	this.timeoutErrorTime = 10000;
 	this.timeoutError = 10000;
 
