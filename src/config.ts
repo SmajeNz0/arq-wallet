@@ -1,8 +1,8 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	apiUrl: "http://127.0.0.1:1984/",
-	mainnetExplorerUrl: "https://blockexplorer.arqma.com/",
-	testnetExplorerUrl: "http,tnet.msrchain.net/",
+	mainnetExplorerUrl: "https://blocks.arqma.com/",
+	testnetExplorerUrl: "",
 	testnet: false,
 	coinUnitPlaces: 9,
 	txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
