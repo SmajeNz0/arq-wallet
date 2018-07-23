@@ -20,5 +20,5 @@ export function VueFilterDate(value:number) {
 }
 
 export function VueFilterNanoarq(value : number){
-	return value/100000000;
+	return value/1000000000;
 }
