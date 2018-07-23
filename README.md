@@ -24,7 +24,7 @@ Translations:
 - You can help Masari by translation the wallet in your native language, it's really easy !  
 Read [the guide](TRANSLATIONS.md) to get instructions on how to do that
 - Report bugs & ideas to help us improve the web wallet by opening an issue 
-- [Make a donation to Masari](https://www.masariwallet.com/#!donate)
+- [Make a donation to Masari](https://www.myarqma.com/#!donate)
 
 # Forks / Other coin
 The ArQmA Web Wallet is a fork of Masari Web Wallet.
