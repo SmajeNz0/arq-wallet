@@ -99,7 +99,7 @@ class AccountView extends DestructableView{
 
 		let el = kjua({
 			text: address,
-			image:document.getElementById('masariQrCodeLogo'),
+			image:document.getElementById('arqmaQrCodeLogo'),
 			size:300,
 			mode:'image',
 			mSize: 10,
