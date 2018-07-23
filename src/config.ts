@@ -1,6 +1,6 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
-	apiUrl: "http://127.0.0.1:1984/",
+	apiUrl: "",
 	mainnetExplorerUrl: "https://blocks.arqma.com/",
 	testnetExplorerUrl: "",
 	testnet: false,
