@@ -31,7 +31,7 @@ $recipient_name = null;
 foreach($records as $record){
 	if($record['class'] === 'IN' && $record['type'] === 'TXT'){
 		foreach($record['entries'] as $entry){
-			if(strpos($entry, 'oa1:'.$coinSymbol) !== false){
+			if(strpos($entry, 'oa1:'.$coinSymbol) !== false){ //check for future use 
 				$raw = str_replace('oa1:'.$coinSymbol,'', $entry);
 				$parts = explode(';', $raw);
 				foreach($parts as $part){
@@ -47,7 +47,7 @@ foreach($records as $record){
 			}
 		}
 	}
-	
+
 }
 if($recipient_address !== null){
 	header('Content-Type: application/json');
