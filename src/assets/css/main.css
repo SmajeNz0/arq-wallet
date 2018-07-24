@@ -24,6 +24,7 @@ body{
 	overflow-y: hidden;
 	font-weight: normal;
 	background: #43484a;
+
 }
 body.menuHidden{
 	overflow-y: auto;
@@ -666,7 +667,7 @@ body{
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1;
-	color: #000;
+	color: #f7f2f4;
 	-webkit-font-smoothing: antialiased;
 	-webkit-tap-highlight-color: transparent;
 }
@@ -680,7 +681,7 @@ body{
 	width: 100%;
 	margin-top: 29px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #D6DDED;
+	border-bottom: 1px solid #e5e0e2;
 }
 .body-header .header-title {
 	font-size: 26px;
@@ -694,12 +695,12 @@ body{
 }
 .body-header .header-subtitle {
 	font-size: 14px;
-	color: #e5e0e2;
+	color: #f7f2f4;
 	line-height: 26px;
 }
 .body-header .header-subtitle a {
 	font-size: 14px;
-	color: #f7f2f4;
+	color: #e5e0e2;
 	line-height: 1;
 }
 
@@ -708,7 +709,7 @@ body{
 }
 
 .panel{
-	background: #FFF;
+	background: #43484a;
 	border-radius: 5px;
 	padding: 32px 40px 32px 40px;
 	margin-bottom: 30px;
@@ -759,7 +760,7 @@ body{
 	position: relative;
 	min-height: 1em;
 	margin: 1em 0;
-	background: #f8f8f9;
+	background: #f7f2f4;
 	padding: 1em 1.5em;
 	line-height: 1.4285em;
 	color: rgba(0,0,0,.87);
@@ -781,7 +782,7 @@ body{
 /*=================BUTTONS====================*/
 .btn{
 	text-decoration: none;
-	background:#e0e1e2 none;
+	background:#e5e0e2 none;
 	cursor: pointer;
 	color: rgba(0,0,0,.6);
 	border: none;
@@ -808,7 +809,7 @@ body{
 }
 .btn.basic{background:none;color:#e0e1e2;border:2px solid #e0e1e2;}
 .btn.basic:hover{background:none !important;color:#e0e1e2;border:2px solid #e0e1e2;}
-.btn:hover{background-color: #cacbcd;color: rgba(0,0,0,.8);}
+.btn:hover{background-color: #bcb8b9;color: rgba(0,0,0,.8);}
 
 .btn.primary{color: #fff;background-color: #2185d0;}
 .btn.primary.basic{color: #2185d0;border-color: #2185d0;}
@@ -818,8 +819,8 @@ body{
 .btn.teal{background-color: #00b5ad;color: #fff;}
 .btn.teal:hover{background-color: #009c95;color: #fff;}
 
-.btn.green{background-color: #4cb860;color: #fff;}
-.btn.green:hover{background-color: #499c4e;color: #fff;}
+.btn.green{background-color: #a29e8d;color: #fff;}
+.btn.green:hover{background-color: #858274;color: #fff;}
 
 .btn:disabled,.btn.disabled{
 	cursor: default;
@@ -1019,7 +1020,7 @@ body{
 	position: relative;
 	width: 0;
 	min-width: 2em;
-	background: #888;
+	background: #a29e8d;
 	border-radius: .28571429rem;
 	-webkit-transition: width .1s ease,background-color .1s ease;
 	transition: width .1s ease,background-color .1s ease;
