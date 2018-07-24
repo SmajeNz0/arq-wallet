@@ -55,7 +55,7 @@ class NetworkView extends DestructableView{
 			url:'https://api.arqma.com/network/stats'
 		}).done(function(data : any){
 			self.networkDifficulty = data.difficulty;
-			self.networkHashrate = data.difficulty/240/1000000;
+			self.networkHashrate = data.difficulty/240/100;
 			self.blockchainHeight = data.height;
 			self.lastReward = data.value/1000000000;
 			self.lastBlockFound = (new Date(data.ts*1000)).toLocaleString('en');

@@ -116,12 +116,12 @@ export class WalletRepository{
 		doc.rect(108,10,80,80, 'F');
 		doc.rect(10,115,80,80, 'F');
 
-		//green blocks
-		doc.setFillColor(76, 184, 96);
+		//blue blocks
+		doc.setFillColor(124, 146, 255);
 		doc.rect(108,115,80,80, 'F');
 
-		//green background for texts
-		doc.setFillColor(76, 184, 96);
+		//blue background for texts
+		doc.setFillColor(124, 146, 255);
 
 		doc.rect(108,15,80,20, 'F');
 		doc.rect(10,120,80,20, 'F');
@@ -154,7 +154,11 @@ export class WalletRepository{
 		let c : HTMLCanvasElement|null = <HTMLCanvasElement>document.getElementById('canvasExport');
 		if(c !== null) {
 			let ctx = c.getContext("2d");
+<<<<<<< HEAD
 			let img: ImageBitmap | null = <ImageBitmap | null>document.getElementById("verticalArQmALogo");
+=======
+			let img: ImageBitmap | null = <ImageBitmap | null>document.getElementById("verticalArqmaiLogo");
+>>>>>>> a8e3f987a6d639fafc4dc86525ed3a950a7d5cc6
 			if (ctx !== null && img !== null) {
 				c.width = img.width;
 				c.height = img.height;

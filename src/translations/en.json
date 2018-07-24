@@ -105,7 +105,7 @@
 		"emptyWallet": "You currently have no funds on this wallet",
 		"waitSync": "Wait until the wallet is updated",
 		"beReallyPatient": "The initial setup can take some time...",
-		"getMSRAddress": "Get your address to receive MSR"
+		"getARQAddress": "Get your address to receive ARQ"
 	  },
 	  "txDetails":{
 		"title":"Transaction details",
@@ -199,7 +199,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Send MSR",
+	  "title":"Send ARQ",
 	  "sendBlock":{
 		"address":{
 		  "label":"Destination address",
@@ -262,7 +262,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Receive MSR",
+	  "title":"Receive ARQ",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Your address to receive funds",
@@ -282,7 +282,7 @@
 	},
 	"miningPage":{
 	  "title":"Mine directly in your Browser",
-	  "subtitle":"Support the network but mining to improve the stability and be rewarded with MSR",
+	  "subtitle":"Support the network but mining to improve the stability and be rewarded with ARQ",
 	  "parameterBlock":{
 		"title":"Parameters",
 		"labelDestinationAddress":"Wallet to mine",

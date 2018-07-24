@@ -59,7 +59,7 @@
 									{{ $t("accountPage.historyBlock.emptyWallet") }}<br/>
 									<span v-if="currentScanBlock+1 !== blockchainHeight" >
 										{{ $t("accountPage.historyBlock.waitSync") }}
-										<template v-if="blockchainHeight - currentScanBlock > 100000" >
+										<template v-if="blockchainHeight - currentScanBlock > 10000" >
 											<br/>{{ $t("accountPage.historyBlock.beReallyPatient") }}
 										</template>
 									</span><br>

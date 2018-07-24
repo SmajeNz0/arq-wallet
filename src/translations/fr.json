@@ -105,7 +105,7 @@
 		"emptyWallet": "Vous n'avez aucun fond sur ce portefeuille",
 		"waitSync": "Veuillez attendre la fin de la synchronisation",
 		"beReallyPatient": "La première synchronisation peut prendre quelques minutes...",
-		"getMSRAddress": "Obtenir mon adresse pour recevoir des MSR"
+		"getARQAddress": "Obtenir mon adresse pour recevoir des ARQ"
 	  },
 	  "txDetails":{
 		"title":"Détails de la transaction",
@@ -199,7 +199,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Envoyer des MSR",
+	  "title":"Envoyer des ARQ",
 	  "sendBlock":{
 		"address":{
 		  "label":"Adresse de destination",
@@ -262,7 +262,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Recevoir des MSR",
+	  "title":"Recevoir des ARQ",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Votre adresse pour recevoir des fonds",
@@ -282,7 +282,7 @@
 	},
 	"miningPage":{
 	  "title":"Miner directement depuis votre navigateur",
-	  "subtitle":"Supportez lé réseau en minant et en améliorant la stabilité du réseau tout en étant réponsé en MSR",
+	  "subtitle":"Supportez lé réseau en minant et en améliorant la stabilité du réseau tout en étant réponsé en ARQ",
 	  "parameterBlock":{
 		"title":"Paramètres",
 		"labelDestinationAddress":"Portefeuille de destination",
