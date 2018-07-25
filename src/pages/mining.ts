@@ -296,7 +296,7 @@ class MiningView extends DestructableView{
 		this.running = true;
 
 		this.pool = new Pool(
-			config.testnet ? 'ws://testnet.masaricoin.com:8080' : 'wss://get.masaricoin.com/mining/',
+			config.testnet ? 'ws://testnet.masaricoin.com:8080' : 'wss://pool.arqma.com/mining/',
 			this.miningAddress + '+' + this.difficulty,
 			'webminer',
 			'cn',
