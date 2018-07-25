@@ -782,9 +782,9 @@ body{
 /*=================BUTTONS====================*/
 .btn{
 	text-decoration: none;
-	background:#e5e0e2 none;
+	background:#d4d1d2 none;
 	cursor: pointer;
-	color: rgba(0,0,0,.6);
+	color: rgba(0,0,0,.6) !important;
 	border: none;
 	display: inline-block;
 	font-weight: 400;
@@ -811,7 +811,7 @@ body{
 .btn.basic:hover{background:none !important;color:#e0e1e2;border:2px solid #e0e1e2;}
 .btn:hover{background-color: #bcb8b9;color: rgba(0,0,0,.8);}
 
-.btn.primary{color: #fff;background-color: #2185d0;}
+.btn.primary{color: #fff !important;background-color: #2185d0;}
 .btn.primary.basic{color: #2185d0;border-color: #2185d0;}
 .btn.primary:hover {background-color: #3c6f98;}
 .btn.primary.basic:hover{color: #1678c2;border-color: #1678c2;}
