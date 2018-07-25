@@ -722,7 +722,7 @@ body{
 }
 .panel a{
 	text-decoration: none;
-	color:#474E5D;
+	color:#e5e0e2;
 }
 .panel.inline {
 	background: transparent;
@@ -775,14 +775,14 @@ body{
 }
 .message > .title{font-weight: 700;padding-bottom:8px;}
 .message > .content{font-size:1em;}
-.message.error{background-color: #fff6f6;color: #9f3a38;}
+.message.error{background-color: #fffcfc;color: #9f3a38;}
 .message.warning{background-color: #fffaf3;color: #573a08;}
 
 
 /*=================BUTTONS====================*/
 .btn{
 	text-decoration: none;
-	background:#d4d1d2 none;
+	background:#dbd9da none;
 	cursor: pointer;
 	color: rgba(0,0,0,.6) !important;
 	border: none;
@@ -811,7 +811,7 @@ body{
 .btn.basic:hover{background:none !important;color:#e0e1e2;border:2px solid #e0e1e2;}
 .btn:hover{background-color: #bcb8b9;color: rgba(0,0,0,.8);}
 
-.btn.primary{color: #fff !important;background-color: #2185d0;}
+.btn.primary{color: #fff !important;background-color: #4987b9;}
 .btn.primary.basic{color: #2185d0;border-color: #2185d0;}
 .btn.primary:hover {background-color: #3c6f98;}
 .btn.primary.basic:hover{color: #1678c2;border-color: #1678c2;}
@@ -819,8 +819,8 @@ body{
 .btn.teal{background-color: #00b5ad;color: #fff;}
 .btn.teal:hover{background-color: #009c95;color: #fff;}
 
-.btn.green{background-color: #a29e8d;color: #fff;}
-.btn.green:hover{background-color: #858274;color: #fff;}
+.btn.green{background-color: #a29e8d;color: #fff !important;}
+.btn.green:hover{background-color: #858274;color: #fff !important;}
 
 .btn:disabled,.btn.disabled{
 	cursor: default;
