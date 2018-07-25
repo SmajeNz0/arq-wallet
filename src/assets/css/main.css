@@ -1046,3 +1046,9 @@ body{
 .swal2-popup .swal2-styled.swal2-cancel {
 	background-color: #989b9c !important;
 }
+
+.swal2-popup .swal2-file:focus, .swal2-popup .swal2-input:focus, .swal2-popup .swal2-textarea:focus {
+	border: 1px solid #a29e8d !important;
+	outline: 0;
+	box-shadow: 0 0 3px #a29e8d !important;
+}

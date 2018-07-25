@@ -12,7 +12,7 @@
 	  "export": "Exporter",
 	  "donate": "Contribuer",
 	  "settings": "Paramètres",
-	  "disconnect": "Déconnection",
+	  "disconnect": "Déconnexion",
 	  "network": "Stats du réseau",
 	  "mining": "Minage"
 	},
@@ -24,7 +24,7 @@
 	  "download":"Télécharger",
 	  "newVersionModal":{
 		"title":"Une nouvelle version est disponible",
-		"content":"Voulez vous recharger pour passer passer sur la nouvelle version ?",
+		"content":"Voulez-vous recharger pour passer sur la nouvelle version ?",
 		"confirmText":"Oui",
 		"cancelText":"Plus tard"
 	  },
@@ -35,7 +35,7 @@
 	  },
 	  "invalidPasswordModal":{
 		"title":"Oups...",
-		"content":"Votre mot de passe semble invalide",
+		"content":"Votre mot de passe est invalide",
 		"confirmText":"OK"
 	  },
 	  "invalidMnemonicModal":{
@@ -77,7 +77,7 @@
 		},
 		"fast": {
 		  "title": "Rapide",
-		  "description": "Envoyer n'importe, n'importe ou"
+		  "description": "Envoyer n'importe quand et n'importe ou"
 		},
 		"technology": {
 		  "title": "Technologie unique",
@@ -96,7 +96,7 @@
 		"text": "Synchronisation en cours "
 	  },
 	  "balanceBlock": {
-		"title": "Votre solve",
+		"title": "Votre solde",
 		"unlocked": "Disponible"
 	  },
 	  "historyBlock": {
@@ -119,13 +119,13 @@
 	  "title":"Changer mon mot de passe",
 	  "oldPassword":{
 		"label":"Ancien",
-		"invalid":"Mot de passe invalid"
+		"invalid":"Mot de passe invalide"
 	  },
 	  "newPassword":{
-		"label":"Nouveau mot de passe pour sécuriser"
+		"label":"Nouveau mot de passe pour sécuriser votre identifiant"
 	  },
 	  "newPasswordConfirm":{
-		"label":"Confirmer mon nouveau mot de passe"
+		"label":"Confirmer le nouveau mot de passe"
 	  },
 	  "confirm":"Changer",
 	  "modalSuccess":{
@@ -141,7 +141,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"C'était simple. Votre portefeuille est prêt !",
-		"subtitle":"Soyer près à utiliser ArQmA le plus simplement possible",
+		"subtitle":"Soyez prêt à utiliser ArQmA le plus simplement possible",
 		"passwordSelectionBlock":{
 		  "label":"Sécuriser mon portefeuille"
 		},
@@ -156,9 +156,9 @@
 		  "privateKeys":"Cléfs privées",
 		  "mnemonicPhrase":"Phrase mnémotechnique",
 		  "separatorManualMethodsSolution":" ou ",
-		  "confirmManuallyWritten":"Je les ais écrites",
-		  "warningMessage":"**Ne les perdez pas!** Il est impossible des les récupérer si vous les perdez.<br/>**Ne les paratagez pas!** Vos fonds peuvent être volé si vous utilisez ces informations sur des sites-tiers (malicieux/phishing).<br/>**Faites une sauvegarde!** Sécutisez vos identifiants comme si si vous possédiez des millions de dollars.<br/>",
-		  "finishButton":"Je comprend. Continuer"
+		  "confirmManuallyWritten":"Je les ai écrites",
+		  "warningMessage":"**Ne les perdez pas!** Il est impossible des les récupérer si vous les perdez.<br/>**Ne les paratagez pas!** Vos fonds peuvent être volés si vous utilisez ces informations sur des sites-tiers (malicieux/phishing).<br/>**Faites une sauvegarde!** Sécutisez vos identifiants comme si vous possédiez des millions de dollars.<br/>",
+		  "finishButton":"Je comprends. Continuer"
 		}
 	  },
 	  "disclaimerBlock":{
@@ -180,9 +180,9 @@
 	},
 	"supportPage":{
 	  "title":"Support",
-	  "subtitle":"Vous avez besoins d'aide, nous somme la pour aider !",
+	  "subtitle":"Vous avez besoins d'aide, nous somme la pour vous aider !",
 	  "getInTouchBlock":{
-		"title":"Reston en contact !",
+		"title":"Restons en contact !",
 		"content":"Vous avez des idées, des retours pour aider à améliorer le service ? Contactez nous !",
 		"discord":"Discord Officiel de ArQmA"
 	  }
@@ -193,7 +193,7 @@
 	  "statsBlock":{
 		"hashrate":"Hashrate du réseau",
 		"height":"Hauteur de la Blockchain",
-		"difficulty":"Difficulty du réseau",
+		"difficulty":"Difficulté du réseau",
 		"lastTimeBlock":"Dernier block trouvé",
 		"lastReward":"Dernière récompense"
 	  }
@@ -204,7 +204,7 @@
 		"address":{
 		  "label":"Adresse de destination",
 		  "invalid":"L'adresse de destination est invalide",
-		  "fundsTo":"Les fonds seront envoyé à ",
+		  "fundsTo":"Les fonds seront envoyés à ",
 		  "receiver":"Destinataire",
 		  "description":"Description"
 		},
@@ -213,8 +213,8 @@
 		  "invalid":"Le montant est invalide"
 		},
 		"paymentId":{
-		  "label":"Identifiant du payment (optionnel)",
-		  "invalid":"L'identifiant du paiement est invalid. La longeur doit être de 16 ou 64 caractères"
+		  "label":"Identifiant du paiement (optionnel)",
+		  "invalid":"L'identifiant du paiement est invalide. La longeur doit être de 16 ou 64 caractères"
 		},
 		"sendButton":"Envoyer",
 		"cancelButton":"Annuler"
@@ -224,12 +224,12 @@
 	  },
 	  "notEnoughMoneyModal":{
 		"title":"Oups...",
-		"content":"Vous n'avez pas assez de fonds pour effectuer ce tranfert",
+		"content":"Vous n'avez pas assez de fonds pour effectuer ce transfert",
 		"confirmText":"OK"
 	  },
 	  "thankYouDonationModal":{
 		"title":"Merci pour votre donation !",
-		"content":"Votre aide est apprécié. <br/>Cette donation contribuera à améliorer ArQmA",
+		"content":"Votre aide est appréciée. <br/>Cette donation contribuera à améliorer ArQmA",
 		"confirmText":"Fermer"
 	  },
 	  "transferSentModal":{
@@ -238,7 +238,7 @@
 	  },
 	  "transferExceptionModal":{
 		"title":"Oups...",
-		"content":"Une erreur est survenue. Merci de nous envoyer de rapport: {details}",
+		"content":"Une erreur est survenue. Merci de nous envoyer un rapport: {details}",
 		"confirmText":"Fermer"
 	  },
 	  "invalidAmountModal":{
@@ -277,12 +277,12 @@
 		}
 	  },
 	  "qrBlock":{
-		"title":"Votre QR code customisé"
+		"title":"Votre QR code personalisé"
 	  }
 	},
 	"miningPage":{
 	  "title":"Miner directement depuis votre navigateur",
-	  "subtitle":"Supportez lé réseau en minant et en améliorant la stabilité du réseau tout en étant réponsé en ARQ",
+	  "subtitle":"Supportez lé réseau en minant et en améliorant la stabilité du réseau tout en étant récompensé en ARQ",
 	  "parameterBlock":{
 		"title":"Paramètres",
 		"labelDestinationAddress":"Portefeuille de destination",
@@ -304,14 +304,14 @@
 	  "subtitle":"Changez vos paramètres ici",
 	  "settingsBlock":{
 		"speed":{
-		  "label":"Vitesse d'actualisation du portefeuille (will consume more energy)",
+		  "label":"Vitesse d'actualisation du portefeuille (consomme plus d'énergie)",
 		  "fastest":"Le plus vite",
 		  "fast":"Rapide",
 		  "medium":"Normal",
 		  "slow":"Lent"
 		},
 		"readMinerTx":{
-		  "label":"Lire les transactions de minage (uniquement pour les personnes faisant du solo-minage)"
+		  "label":"Lire les transactions de minage (uniquement pour les personnes faisant du minage en solo)"
 		}
 	  },
 	  "changePasswordButton":"Changer le mot de passe de mon portefeuille",
@@ -327,7 +327,7 @@
 	  },
 	  "deleteWalletModal":{
 		"title":"Supprimer mon portefeuille (copie locale)",
-		"content":"Etes vous VRAIMENT sûr de vouloir supprimer votre portefeuille ?",
+		"content":"Êtes-vous VRAIMENT sûr de vouloir supprimer votre portefeuille ?",
 		"confirmText":"Oui je suis sûr",
 		"cancelButtonText":"Annuler"
 	  }
@@ -370,18 +370,18 @@
 	  },
 	  "warningBlock":{
 		"title":"Attention",
-		"content":"Si vous choisissez de sauvegarder vos cléfs privées ou la phrase mnémotechnique, NE LE ECRIVEZ PAS dans un endroit non sécurisé (chiffré) ceci pour votre propre sécurité.<br/>Le fichier est une solution alternative où les identifiants sont chiffrés et contient également une sauvegarde de l'historique de vos transactions"
+		"content":"Si vous choisissez de sauvegarder vos cléfs privées ou la phrase mnémotechnique, NE LES ECRIVEZ PAS dans un endroit non sécurisé (chiffré) ceci pour votre propre sécurité.<br/>Le fichier est une solution alternative où les identifiants sont chiffrés et contient également une sauvegarde de l'historique de vos transactions"
 	  },
 	  "exportBlock":{
 		"title":"Exporter vos identifiants (non chiffrés)",
 		"privateKeysButton":"Obtenir mes cléfs privées",
 		"mnemonicKeysButton":"Obtenir ma phrase mnémotechnique",
-		"fileButton":"Exporter ver un fichier"
+		"fileButton":"Exporter vers un fichier"
 	  },
 	  "walletKeysModal":{
 		"title":"Cléfs privées",
 		"confirmText":"OK",
-		"content":"Merci de stocker soigneusement ces cléfs. <b>Les posséder signifie posséder les fonds associé</b> !<br/>Clé privée de dépense: {privSpendKey}<br/>Clé privée de visualisation: {privViewKey}"
+		"content":"Merci de stocker soigneusement ces cléfs. <b>Les posséder signifie posséder les fonds associés</b> !<br/>Clé privée de dépense: {privSpendKey}<br/>Clé privée de visualisation: {privViewKey}"
 	  },
 	  "mnemonicKeyModal":{
 		"title":"Clé privée",
