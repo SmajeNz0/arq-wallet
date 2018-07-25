@@ -807,8 +807,8 @@ body{
 	transition: all .25s ease;
 	padding: .78571429em 1.5em .78571429em;
 }
-.btn.basic{background:none;color:#e0e1e2;border:2px solid #e0e1e2;}
-.btn.basic:hover{background:none !important;color:#e0e1e2;border:2px solid #e0e1e2;}
+.btn.basic{background-color: #a29e8d;color: #fff !important}
+.btn.basic:hover{background-color: #858274;color: #fff !important}
 .btn:hover{background-color: #bcb8b9;color: rgba(0,0,0,.8);}
 
 .btn.primary{color: #fff !important;background-color: #4987b9;}
@@ -1030,3 +1030,4 @@ body{
 .progress .label{
 	display: block;
 }
+
