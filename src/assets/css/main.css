@@ -722,7 +722,7 @@ body{
 }
 .panel a{
 	text-decoration: none;
-	color:#474E5D;
+	color:#f7f2f4;
 }
 .panel.inline {
 	background: transparent;
@@ -775,7 +775,7 @@ body{
 }
 .message > .title{font-weight: 700;padding-bottom:8px;}
 .message > .content{font-size:1em;}
-.message.error{background-color: #fff6f6;color: #9f3a38;}
+.message.error{background-color: #f7eded;color: #ba4848;}
 .message.warning{background-color: #fffaf3;color: #573a08;}
 
 
@@ -1029,4 +1029,51 @@ body{
 }
 .progress .label{
 	display: block;
+}
+
+.swal2-popup {
+	display: none;
+	position: relative;
+	flex-direction: column;
+	justify-content: center;
+	width: 32em;
+	max-width: 100%;
+	padding: 1.25em;
+	border-radius: .3125em;
+	background: #43484a;
+	font-family: inherit;
+	font-size: 1rem;
+	box-sizing: border-box;
+}
+
+.swal2-popup .swal2-title {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	margin: 0 0 .4em;
+	padding: 0;
+	color: #e5e0e2;
+	font-size: 1.875em;
+	font-weight: 600;
+	text-align: center;
+	text-transform: none;
+	word-wrap: break-word;
+}
+
+.swal2-popup .swal2-styled.swal2-confirm {
+	border: 0;
+	border-radius: .25em;
+	background: initial;
+	background-color: #5197d1;
+	color: #fff;
+	font-size: 1.0625em;
+}
+
+.swal2-popup .swal2-styled.swal2-confirm:hover {
+	border: 0;
+	border-radius: .25em;
+	background: initial;
+	background-color: #4b8cc1;
+	color: #fff;
+	font-size: 1.0625em;
 }
