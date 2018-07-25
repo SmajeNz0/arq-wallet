@@ -1031,3 +1031,18 @@ body{
 	display: block;
 }
 
+.swal2-popup {
+	background: #43484a !important;
+}
+
+.swal2-popup .swal2-styled.swal2-confirm {
+	background-color: #4987b9 !important;
+}
+
+.swal2-popup .swal2-title {
+	color: #e5e0e2 !important;
+}
+
+.swal2-popup .swal2-styled.swal2-cancel {
+	background-color: #989b9c !important;
+}
